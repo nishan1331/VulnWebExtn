@@ -9,7 +9,7 @@ interface EndpointInfo {
   line?: number
 }
 
-const extractEndpointsFromPage = (): EndpointInfo[] => {
+const extractEndpointsFromPage = (): EndpointInfo[] => 
   const endpoints: EndpointInfo[] = []
   
   // Extract from all script tags
